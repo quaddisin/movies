@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="TumGenelAlan">
+
+        <div id="NavBarGenelAlani">
+            <div id="NavBarSinirlamaAlani">
+                <div id="NavbarAlani">
+                    <ul id="NavBarListeAlani">
+                        {% if request.user.is_authenticated %}
+                        <li class="NavBarListeleri"><a href="/">Home</a></li>
+                        <li class="NavBarListeleri"><a href="#communication">Communication</a></li>
+                        <li class="NavBarListeleri"><a href="">About</a></li>
+                        <li class="NavBarListeleri"><a href="/user/logout/">Logout</a></li>
+                        <li class="NavBarListeleri"><a href="/movie/addmovie/">AddMovie</a></li>
+                        <form method="POST" action="/">
+                            <li class="NavBarListeleri">
+                                {% csrf_token %}
+                                <input type="search" name="search" placeholder="Search" id="">
+                            </li>
+                        </form>
+                        {% else %}
+                        <li class="NavBarListeleri"><a href="/">Home</a></li>
+                        <li class="NavBarListeleri"><a href="">Communication</a></li>
+                        <li class="NavBarListeleri"><a href="">About</a></li>
+                        <li class="NavBarListeleri"><a href="/user/register/">Register</a></li>
+                        <li class="NavBarListeleri"><a href="/user/login/">Login</a></li>
+                        <form>
+                            <li class="NavBarListeleri">
+                                {% csrf_token %}
+                                <input type="search" name="search" placeholder="Search" id="">
+                            </li>
+                        </form>
+                        {% endif %}
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="ArkaPlanResmiSinirlamaAlani">
+        </div>
+        {% block index %}
+        <div id="FilmlerGenelAlani">
+
+            <div id="FilmlerSinirlandirmaAlani">
+                {% for movie in movies %}
+                <div class="FilmlerAlani">
+
+                    <div class="FilmResimAlani">
+                        <img width="250px" height="200px" src="{{movie.m_image.url}}" alt="">
+                    </div>
+                    <div class="FilmİsimAlani">
+                        {{movie.m_name}}
+                    </div>
+                    <div class="FilmYilAlani">
+                        {{movie.m_year}}
+                    </div>
+                    <div class="FilmOyunculariAlani">
+                        {{movie.m_actors}}
+                    </div>
+                    <div class="FilmRottenTomatoPuani">
+                        {{movie.m_rank}} %
+                    </div>
+
+                </div>
+                {% endfor %}
+
+            </div>
+
+
+        </div>
+        <div id="FilmKategoriGenelAlani">
+            <div id="FilmKategoriSinirlandirmaAlani">
+                <a href="/movie/action/">Action</a>
+                <a href="/movie/scifi/">Sci-Fi</a>
+                <a href="/movie/horror/">Horror</a>
+                <a href="/movie/drama/">Drama</a>
+            </div>
+        </div>
+
+        {% endblock %}
+        <footer id="communication">
+            <div id="FooterGenelAlani">
+                <div id="FooterSinirlandirmaAlani">
+                    <div id="FooterSolAlan">
+                        <div id="FooterSolAlanBaslikAlani">Communication</div>
+                        <div id="FooterSolAlanIcerikAlani">
+                            <div id="FooterSolAlanIcerikAlaniBaslik">Phone Number : <span>+90 (553) 025 70 11</span></div>
+                            <div id="FooterSolAlanIcerikAlaniBaslik">Address : <span>The White House 1600 Pennsylvania Ave NW Washington, DC 20500 </span></div>
+                        </div>
+                    </div>
+                    <div id="FooterSagAlan">
+                        <div id="FooterSagAlanBaslikAlani"></div>
+                        <div id="FooterSagAlanSocialMedias">
+                            <div id="FooterSagAlanSocialMediasIconAlani">
+                                <a href="https://www.facebook.com"><img class="FacebookImg" src="/static/photos/facebook.png" alt=""></a>
+                                <a href="https://www.instagram.com"><img class="InstagramImg" src="/static/photos/instagram.png" alt=""></a>
+                                <a href="https://www.twitter.com"><img class="TwitterImg" src="/static/photos/twitter.png" alt=""></a>
+                                <a href="https://www.google.com"><img class="GoogleImg" src="/static/photos/google.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+</body>
+
+</html>

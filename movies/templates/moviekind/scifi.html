@@ -1,0 +1,49 @@
+{% extends "index.html" %} {% block index %}
+<div id="FilmlerGenelAlani">
+
+    <div id="FilmlerSinirlandirmaAlani">
+        {% for movie in movies %}
+        <div class="FilmlerAlani">
+
+            <div class="FilmResimAlani">
+                <img width="250px" height="200px" src="{{movie.m_image.url}}" alt="">
+            </div>
+            <div class="FilmİsimAlani">
+                {{movie.m_name}}
+            </div>
+            <div class="FilmYilAlani">
+                {{movie.m_year}}
+            </div>
+            <div class="FilmOyunculariAlani">
+                {{movie.m_actors}}
+            </div>
+            <div class="FilmRottenTomatoPuani">
+                {{movie.m_rank}} %
+            </div>
+
+        </div>
+        {% endfor %}
+
+    </div>
+
+
+</div>
+<div id="FilmKategoriGenelAlani">
+    <div id="FilmKategoriSinirlandirmaAlani">
+        <a href="/movie/action/">Action</a>
+        <a href="/movie/scifi/">Sci-Fi</a>
+        <a href="/movie/horror/">Horror</a>
+        <a href="/movie/drama/">Drama</a>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+</body>
+
+</html>

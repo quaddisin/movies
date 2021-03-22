@@ -1,0 +1,18 @@
+{% extends "index.html" %} {% block index %}
+<div id="UserAlaniGenelAlan">
+    <div id="UserAlaniSinirlandirmaAlani">
+
+        <div id="UserAlaniFormAlani">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %} {{form.as_p}}
+
+                <button type="submit" class="UserAlaniFormButton">Add Movie</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,1820 @@
+:root {
+    background-color: #000;
+}
+
+#TumGenelAlan {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarGenelAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarSinirlamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavbarAlani {
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#NavBarListeAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+    list-style: none;
+    transition: all 700ms 0s linear;
+}
+
+#NavBarListeAlani:hover {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+.NavBarListeleri a {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #CCC;
+    transition: all 700ms 0s linear;
+}
+
+.NavBarListeleri input {
+    display: inline-block;
+    float: right;
+    margin: 0px auto;
+    margin-right: 30px;
+    padding: 0px;
+    padding-left: 15px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    transition: all 700ms 0s linear;
+}
+
+.NavBarListeleri input:hover {
+    display: inline-block;
+    float: right;
+    margin: 0px auto;
+    margin-right: 30px;
+    padding: 0px;
+    padding-left: 15px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+}
+
+.NavBarListeleri input:focus {
+    display: inline-block;
+    float: right;
+    margin: 0px auto;
+    margin-right: 30px;
+    padding: 0px;
+    padding-left: 15px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid red;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+    transform: scale(1.1);
+    caret-color: black;
+}
+
+@media only screen and (min-width:1200px) {
+    .NavBarListeleri input,
+    .NavBarListeleri input:hover,
+    .NavBarListeleri input:focus {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+        margin-top: 9px;
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .NavBarListeleri input,
+    .NavBarListeleri input:hover,
+    .NavBarListeleri input:focus {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+        margin-top: 9px;
+        margin-left: 15px;
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .NavBarListeleri input,
+    .NavBarListeleri input:hover,
+    .NavBarListeleri input:focus {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+        margin-top: 9px;
+        margin-left: 15px;
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .NavBarListeleri input,
+    .NavBarListeleri input:hover,
+    .NavBarListeleri input:focus {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+        margin-top: 9px;
+        margin-left: 15px;
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .NavBarListeleri input,
+    .NavBarListeleri input:hover,
+    .NavBarListeleri input:focus {
+        display: none;
+    }
+}
+
+.NavBarListeleri a:hover {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #000;
+}
+
+@media only screen and (min-width:1200px) {
+    .NavBarListeleri a {
+        font-size: 20px;
+        line-height: 250%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .NavBarListeleri a {
+        font-size: 18px;
+        line-height: 280%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .NavBarListeleri a {
+        font-size: 16px;
+        line-height: 300%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .NavBarListeleri a {
+        font-size: 14px;
+        line-height: 340%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .NavBarListeleri a {
+        font-size: 14px;
+        line-height: 340%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .NavBarListeleri a:hover {
+        font-size: 20px;
+        line-height: 250%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .NavBarListeleri a:hover {
+        font-size: 18px;
+        line-height: 280%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .NavBarListeleri a:hover {
+        font-size: 16px;
+        line-height: 300%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .NavBarListeleri a:hover {
+        font-size: 14px;
+        line-height: 340%;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .NavBarListeleri a:hover {
+        font-size: 14px;
+        line-height: 340%;
+        margin-left: 15px;
+    }
+}
+
+#ArkaPlanResmiSinirlamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-image: url("/static/photos/got.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: opacity(0.4);
+}
+
+#FilmlerGenelAlani {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FilmlerSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: -o-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: calc(100% - 100px);
+    min-width: -webkit-calc(100% - 100px);
+    min-width: -moz-calc(100% - 100px);
+    min-width: -o-calc(100% - 100px);
+    min-width: -ms-calc(100% - 100px);
+    min-width: calc(100% - 100px);
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: -o-calc(100% - 100px);
+    max-width: -ms-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FilmlerAlani {
+    display: inline-block;
+    float: left;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    box-shadow: 2px 2px 4px red, -2px -2px 4px red;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+}
+
+.FilmlerAlani:hover {
+    display: inline-block;
+    float: left;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+    animation-name: FilmlerBoxShadow;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes FilmlerBoxShadow {
+    0% {
+        box-shadow: 2px 2px 4px red, -2px -2px 4px red;
+    }
+    20% {
+        box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    }
+    40% {
+        box-shadow: 2px 2px 4px blue, -2px -2px 4px blue;
+    }
+    60% {
+        box-shadow: 2px 2px 4px white, -2px -2px 4px white;
+    }
+    80% {
+        box-shadow: 2px 2px 4px #696969, -2px -2px 4px #696969;
+    }
+    100% {
+        box-shadow: 2px 2px 4px darkgreen, -2px -2px 4px darkgreen;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .FilmlerAlani {
+        width: 250px;
+        min-width: 250px;
+        max-width: 250px;
+        height: 300px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FilmlerAlani {
+        width: 250px;
+        min-width: 250px;
+        max-width: 250px;
+        height: 300px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FilmlerAlani {
+        width: 200px;
+        min-width: 200px;
+        max-width: 200px;
+        height: 250px;
+        min-height: 250px;
+        max-height: 250px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .FilmlerAlani {
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .FilmlerAlani {
+        width: 140px;
+        min-width: 140px;
+        max-width: 140px;
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+#UserAlaniGenelAlan {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#UserAlaniSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: -o-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: calc(100% - 100px);
+    min-width: -webkit-calc(100% - 100px);
+    min-width: -moz-calc(100% - 100px);
+    min-width: -o-calc(100% - 100px);
+    min-width: -ms-calc(100% - 100px);
+    min-width: calc(100% - 100px);
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: -o-calc(100% - 100px);
+    max-width: -ms-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#UserAlaniFormAlani {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#UserAlaniFormAlani>form {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+}
+
+#UserAlaniFormAlani input {
+    display: block;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+    transition: all 800ms 0s linear;
+}
+
+@media only screen and (min-width:1200px) {
+    #UserAlaniFormAlani input {
+        width: -webkit-calc(100% - 400px);
+        width: -moz-calc(100% - 400px);
+        width: -o-calc(100% - 400px);
+        width: -ms-calc(100% - 400px);
+        width: calc(100% - 400px);
+        min-width: -webkit-calc(100% - 400px);
+        min-width: -moz-calc(100% - 400px);
+        min-width: -o-calc(100% - 400px);
+        min-width: -ms-calc(100% - 400px);
+        min-width: calc(100% - 400px);
+        max-width: -webkit-calc(100% - 400px);
+        max-width: -moz-calc(100% - 400px);
+        max-width: -o-calc(100% - 400px);
+        max-width: -ms-calc(100% - 400px);
+        max-width: calc(100% - 400px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #UserAlaniFormAlani input {
+        width: -webkit-calc(100% - 350px);
+        width: -moz-calc(100% - 350px);
+        width: -o-calc(100% - 350px);
+        width: -ms-calc(100% - 350px);
+        width: calc(100% - 350px);
+        min-width: -webkit-calc(100% - 350px);
+        min-width: -moz-calc(100% - 350px);
+        min-width: -o-calc(100% - 350px);
+        min-width: -ms-calc(100% - 350px);
+        min-width: calc(100% - 350px);
+        max-width: -webkit-calc(100% - 350px);
+        max-width: -moz-calc(100% - 350px);
+        max-width: -o-calc(100% - 350px);
+        max-width: -ms-calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #UserAlaniFormAlani input {
+        width: -webkit-calc(100% - 300px);
+        width: -moz-calc(100% - 300px);
+        width: -o-calc(100% - 300px);
+        width: -ms-calc(100% - 300px);
+        width: calc(100% - 300px);
+        min-width: -webkit-calc(100% - 300px);
+        min-width: -moz-calc(100% - 300px);
+        min-width: -o-calc(100% - 300px);
+        min-width: -ms-calc(100% - 300px);
+        min-width: calc(100% - 300px);
+        max-width: -webkit-calc(100% - 300px);
+        max-width: -moz-calc(100% - 300px);
+        max-width: -o-calc(100% - 300px);
+        max-width: -ms-calc(100% - 300px);
+        max-width: calc(100% - 300px);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #UserAlaniFormAlani input {
+        width: -webkit-calc(100% - 250px);
+        width: -moz-calc(100% - 250px);
+        width: -o-calc(100% - 250px);
+        width: -ms-calc(100% - 250px);
+        width: calc(100% - 250px);
+        min-width: -webkit-calc(100% - 250px);
+        min-width: -moz-calc(100% - 250px);
+        min-width: -o-calc(100% - 250px);
+        min-width: -ms-calc(100% - 250px);
+        min-width: calc(100% - 250px);
+        max-width: -webkit-calc(100% - 250px);
+        max-width: -moz-calc(100% - 250px);
+        max-width: -o-calc(100% - 250px);
+        max-width: -ms-calc(100% - 250px);
+        max-width: calc(100% - 250px);
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #UserAlaniFormAlani input {
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: -ms-calc(100% - 150px);
+        width: calc(100% - 150px);
+        min-width: -webkit-calc(100% - 150px);
+        min-width: -moz-calc(100% - 150px);
+        min-width: -o-calc(100% - 150px);
+        min-width: -ms-calc(100% - 150px);
+        min-width: calc(100% - 150px);
+        max-width: -webkit-calc(100% - 150px);
+        max-width: -moz-calc(100% - 150px);
+        max-width: -o-calc(100% - 150px);
+        max-width: -ms-calc(100% - 150px);
+        max-width: calc(100% - 150px);
+    }
+}
+
+#UserAlaniFormAlani input:focus {
+    display: block;
+    width: -webkit-calc(100% - 400px);
+    width: -moz-calc(100% - 400px);
+    width: -o-calc(100% - 400px);
+    width: -ms-calc(100% - 400px);
+    width: calc(100% - 400px);
+    min-width: -webkit-calc(100% - 400px);
+    min-width: -moz-calc(100% - 400px);
+    min-width: -o-calc(100% - 400px);
+    min-width: -ms-calc(100% - 400px);
+    min-width: calc(100% - 400px);
+    max-width: -webkit-calc(100% - 400px);
+    max-width: -moz-calc(100% - 400px);
+    max-width: -o-calc(100% - 400px);
+    max-width: -ms-calc(100% - 400px);
+    max-width: calc(100% - 400px);
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width:1200px) {
+    #UserAlaniFormAlani input:focus {
+        width: -webkit-calc(100% - 400px);
+        width: -moz-calc(100% - 400px);
+        width: -o-calc(100% - 400px);
+        width: -ms-calc(100% - 400px);
+        width: calc(100% - 400px);
+        min-width: -webkit-calc(100% - 400px);
+        min-width: -moz-calc(100% - 400px);
+        min-width: -o-calc(100% - 400px);
+        min-width: -ms-calc(100% - 400px);
+        min-width: calc(100% - 400px);
+        max-width: -webkit-calc(100% - 400px);
+        max-width: -moz-calc(100% - 400px);
+        max-width: -o-calc(100% - 400px);
+        max-width: -ms-calc(100% - 400px);
+        max-width: calc(100% - 400px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #UserAlaniFormAlani input:focus {
+        width: -webkit-calc(100% - 350px);
+        width: -moz-calc(100% - 350px);
+        width: -o-calc(100% - 350px);
+        width: -ms-calc(100% - 350px);
+        width: calc(100% - 350px);
+        min-width: -webkit-calc(100% - 350px);
+        min-width: -moz-calc(100% - 350px);
+        min-width: -o-calc(100% - 350px);
+        min-width: -ms-calc(100% - 350px);
+        min-width: calc(100% - 350px);
+        max-width: -webkit-calc(100% - 350px);
+        max-width: -moz-calc(100% - 350px);
+        max-width: -o-calc(100% - 350px);
+        max-width: -ms-calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #UserAlaniFormAlani input:focus {
+        width: -webkit-calc(100% - 300px);
+        width: -moz-calc(100% - 300px);
+        width: -o-calc(100% - 300px);
+        width: -ms-calc(100% - 300px);
+        width: calc(100% - 300px);
+        min-width: -webkit-calc(100% - 300px);
+        min-width: -moz-calc(100% - 300px);
+        min-width: -o-calc(100% - 300px);
+        min-width: -ms-calc(100% - 300px);
+        min-width: calc(100% - 300px);
+        max-width: -webkit-calc(100% - 300px);
+        max-width: -moz-calc(100% - 300px);
+        max-width: -o-calc(100% - 300px);
+        max-width: -ms-calc(100% - 300px);
+        max-width: calc(100% - 300px);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #UserAlaniFormAlani input:focus {
+        width: -webkit-calc(100% - 250px);
+        width: -moz-calc(100% - 250px);
+        width: -o-calc(100% - 250px);
+        width: -ms-calc(100% - 250px);
+        width: calc(100% - 250px);
+        min-width: -webkit-calc(100% - 250px);
+        min-width: -moz-calc(100% - 250px);
+        min-width: -o-calc(100% - 250px);
+        min-width: -ms-calc(100% - 250px);
+        min-width: calc(100% - 250px);
+        max-width: -webkit-calc(100% - 250px);
+        max-width: -moz-calc(100% - 250px);
+        max-width: -o-calc(100% - 250px);
+        max-width: -ms-calc(100% - 250px);
+        max-width: calc(100% - 250px);
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #UserAlaniFormAlani input:focus {
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: -ms-calc(100% - 150px);
+        width: calc(100% - 150px);
+        min-width: -webkit-calc(100% - 150px);
+        min-width: -moz-calc(100% - 150px);
+        min-width: -o-calc(100% - 150px);
+        min-width: -ms-calc(100% - 150px);
+        min-width: calc(100% - 150px);
+        max-width: -webkit-calc(100% - 150px);
+        max-width: -moz-calc(100% - 150px);
+        max-width: -o-calc(100% - 150px);
+        max-width: -ms-calc(100% - 150px);
+        max-width: calc(100% - 150px);
+    }
+}
+
+
+/**/
+
+#UserAlaniFormAlani textarea {
+    display: block;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+    transition: all 800ms 0s linear;
+}
+
+@media only screen and (min-width:1200px) {
+    #UserAlaniFormAlani textarea {
+        width: -webkit-calc(100% - 400px);
+        width: -moz-calc(100% - 400px);
+        width: -o-calc(100% - 400px);
+        width: -ms-calc(100% - 400px);
+        width: calc(100% - 400px);
+        min-width: -webkit-calc(100% - 400px);
+        min-width: -moz-calc(100% - 400px);
+        min-width: -o-calc(100% - 400px);
+        min-width: -ms-calc(100% - 400px);
+        min-width: calc(100% - 400px);
+        max-width: -webkit-calc(100% - 400px);
+        max-width: -moz-calc(100% - 400px);
+        max-width: -o-calc(100% - 400px);
+        max-width: -ms-calc(100% - 400px);
+        max-width: calc(100% - 400px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #UserAlaniFormAlani textarea {
+        width: -webkit-calc(100% - 350px);
+        width: -moz-calc(100% - 350px);
+        width: -o-calc(100% - 350px);
+        width: -ms-calc(100% - 350px);
+        width: calc(100% - 350px);
+        min-width: -webkit-calc(100% - 350px);
+        min-width: -moz-calc(100% - 350px);
+        min-width: -o-calc(100% - 350px);
+        min-width: -ms-calc(100% - 350px);
+        min-width: calc(100% - 350px);
+        max-width: -webkit-calc(100% - 350px);
+        max-width: -moz-calc(100% - 350px);
+        max-width: -o-calc(100% - 350px);
+        max-width: -ms-calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #UserAlaniFormAlani textarea {
+        width: -webkit-calc(100% - 300px);
+        width: -moz-calc(100% - 300px);
+        width: -o-calc(100% - 300px);
+        width: -ms-calc(100% - 300px);
+        width: calc(100% - 300px);
+        min-width: -webkit-calc(100% - 300px);
+        min-width: -moz-calc(100% - 300px);
+        min-width: -o-calc(100% - 300px);
+        min-width: -ms-calc(100% - 300px);
+        min-width: calc(100% - 300px);
+        max-width: -webkit-calc(100% - 300px);
+        max-width: -moz-calc(100% - 300px);
+        max-width: -o-calc(100% - 300px);
+        max-width: -ms-calc(100% - 300px);
+        max-width: calc(100% - 300px);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #UserAlaniFormAlani textarea {
+        width: -webkit-calc(100% - 250px);
+        width: -moz-calc(100% - 250px);
+        width: -o-calc(100% - 250px);
+        width: -ms-calc(100% - 250px);
+        width: calc(100% - 250px);
+        min-width: -webkit-calc(100% - 250px);
+        min-width: -moz-calc(100% - 250px);
+        min-width: -o-calc(100% - 250px);
+        min-width: -ms-calc(100% - 250px);
+        min-width: calc(100% - 250px);
+        max-width: -webkit-calc(100% - 250px);
+        max-width: -moz-calc(100% - 250px);
+        max-width: -o-calc(100% - 250px);
+        max-width: -ms-calc(100% - 250px);
+        max-width: calc(100% - 250px);
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #UserAlaniFormAlani textarea {
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: -ms-calc(100% - 150px);
+        width: calc(100% - 150px);
+        min-width: -webkit-calc(100% - 150px);
+        min-width: -moz-calc(100% - 150px);
+        min-width: -o-calc(100% - 150px);
+        min-width: -ms-calc(100% - 150px);
+        min-width: calc(100% - 150px);
+        max-width: -webkit-calc(100% - 150px);
+        max-width: -moz-calc(100% - 150px);
+        max-width: -o-calc(100% - 150px);
+        max-width: -ms-calc(100% - 150px);
+        max-width: calc(100% - 150px);
+    }
+}
+
+#UserAlaniFormAlani textarea:focus {
+    display: block;
+    width: -webkit-calc(100% - 400px);
+    width: -moz-calc(100% - 400px);
+    width: -o-calc(100% - 400px);
+    width: -ms-calc(100% - 400px);
+    width: calc(100% - 400px);
+    min-width: -webkit-calc(100% - 400px);
+    min-width: -moz-calc(100% - 400px);
+    min-width: -o-calc(100% - 400px);
+    min-width: -ms-calc(100% - 400px);
+    min-width: calc(100% - 400px);
+    max-width: -webkit-calc(100% - 400px);
+    max-width: -moz-calc(100% - 400px);
+    max-width: -o-calc(100% - 400px);
+    max-width: -ms-calc(100% - 400px);
+    max-width: calc(100% - 400px);
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width:1200px) {
+    #UserAlaniFormAlani textarea:focus {
+        width: -webkit-calc(100% - 400px);
+        width: -moz-calc(100% - 400px);
+        width: -o-calc(100% - 400px);
+        width: -ms-calc(100% - 400px);
+        width: calc(100% - 400px);
+        min-width: -webkit-calc(100% - 400px);
+        min-width: -moz-calc(100% - 400px);
+        min-width: -o-calc(100% - 400px);
+        min-width: -ms-calc(100% - 400px);
+        min-width: calc(100% - 400px);
+        max-width: -webkit-calc(100% - 400px);
+        max-width: -moz-calc(100% - 400px);
+        max-width: -o-calc(100% - 400px);
+        max-width: -ms-calc(100% - 400px);
+        max-width: calc(100% - 400px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #UserAlaniFormAlani textarea:focus {
+        width: -webkit-calc(100% - 350px);
+        width: -moz-calc(100% - 350px);
+        width: -o-calc(100% - 350px);
+        width: -ms-calc(100% - 350px);
+        width: calc(100% - 350px);
+        min-width: -webkit-calc(100% - 350px);
+        min-width: -moz-calc(100% - 350px);
+        min-width: -o-calc(100% - 350px);
+        min-width: -ms-calc(100% - 350px);
+        min-width: calc(100% - 350px);
+        max-width: -webkit-calc(100% - 350px);
+        max-width: -moz-calc(100% - 350px);
+        max-width: -o-calc(100% - 350px);
+        max-width: -ms-calc(100% - 350px);
+        max-width: calc(100% - 350px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #UserAlaniFormAlani textarea:focus {
+        width: -webkit-calc(100% - 300px);
+        width: -moz-calc(100% - 300px);
+        width: -o-calc(100% - 300px);
+        width: -ms-calc(100% - 300px);
+        width: calc(100% - 300px);
+        min-width: -webkit-calc(100% - 300px);
+        min-width: -moz-calc(100% - 300px);
+        min-width: -o-calc(100% - 300px);
+        min-width: -ms-calc(100% - 300px);
+        min-width: calc(100% - 300px);
+        max-width: -webkit-calc(100% - 300px);
+        max-width: -moz-calc(100% - 300px);
+        max-width: -o-calc(100% - 300px);
+        max-width: -ms-calc(100% - 300px);
+        max-width: calc(100% - 300px);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #UserAlaniFormAlani textarea:focus {
+        width: -webkit-calc(100% - 250px);
+        width: -moz-calc(100% - 250px);
+        width: -o-calc(100% - 250px);
+        width: -ms-calc(100% - 250px);
+        width: calc(100% - 250px);
+        min-width: -webkit-calc(100% - 250px);
+        min-width: -moz-calc(100% - 250px);
+        min-width: -o-calc(100% - 250px);
+        min-width: -ms-calc(100% - 250px);
+        min-width: calc(100% - 250px);
+        max-width: -webkit-calc(100% - 250px);
+        max-width: -moz-calc(100% - 250px);
+        max-width: -o-calc(100% - 250px);
+        max-width: -ms-calc(100% - 250px);
+        max-width: calc(100% - 250px);
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #UserAlaniFormAlani textarea:focus {
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: -ms-calc(100% - 150px);
+        width: calc(100% - 150px);
+        min-width: -webkit-calc(100% - 150px);
+        min-width: -moz-calc(100% - 150px);
+        min-width: -o-calc(100% - 150px);
+        min-width: -ms-calc(100% - 150px);
+        min-width: calc(100% - 150px);
+        max-width: -webkit-calc(100% - 150px);
+        max-width: -moz-calc(100% - 150px);
+        max-width: -o-calc(100% - 150px);
+        max-width: -ms-calc(100% - 150px);
+        max-width: calc(100% - 150px);
+    }
+}
+
+
+/**/
+
+#UserAlaniFormAlani>form>button {
+    display: block;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 700ms 0s linear;
+}
+
+#UserAlaniFormAlani>form>button:hover {
+    display: block;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: darkcyan;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#FilmKategoriGenelAlani {
+    position: absolute;
+    top: 310px;
+    left: 1160px;
+    display: block;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #696969;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FilmKategoriSinirlandirmaAlani {
+    display: block;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FilmKategoriSinirlandirmaAlani a {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 700ms 0s linear;
+}
+
+#FilmKategoriSinirlandirmaAlani a:hover {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    -webkit-text-stroke: 1px red;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    background-color: #000;
+}
+
+#FooterGenelAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#FooterSinirlandirmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: #000;
+}
+
+#FooterSolAlan {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlan {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlan {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlan {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#FooterSagAlan {
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSagAlan {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSagAlan {
+        display: block;
+        float: left;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSagAlan {
+        display: block;
+        float: left;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+#FooterSolAlanBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+#FooterSolAlanIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#FooterSolAlanIcerikAlaniBaslik {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    #FooterSolAlanIcerikAlaniBaslik {
+        font-size: 14px;
+    }
+}
+
+#FooterSolAlanIcerikAlaniBaslik span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #CCC;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:995px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #FooterSolAlanIcerikAlaniBaslik span {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
+
+#FooterSagAlanBaslikAlani {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:995px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    #FooterSagAlanBaslikAlani {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+#FooterSagAlanSocialMedias {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterSagAlanSocialMediasIconAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterSagAlanSocialMediasIconAlani img {
+    display: inline-block;
+    float: right;
+    margin: 0px auto;
+    margin-left: 25px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    filter: grayscale(100%);
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlanSocialMediasIconAlani img {
+        width: 74px;
+        min-width: 74px;
+        max-width: 74px;
+        height: 74px;
+        min-height: 74px;
+        max-height: 74px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlanSocialMediasIconAlani img {
+        width: 74px;
+        min-width: 74px;
+        max-width: 74px;
+        height: 74px;
+        min-height: 74px;
+        max-height: 74px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:995px) {
+    #FooterSagAlanSocialMediasIconAlani img {
+        width: 64px;
+        min-width: 64px;
+        max-width: 64px;
+        height: 64px;
+        min-height: 64px;
+        max-height: 64px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    #FooterSagAlanSocialMediasIconAlani img {
+        width: 54px;
+        min-width: 54px;
+        max-width: 54px;
+        height: 54px;
+        min-height: 54px;
+        max-height: 54px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    #FooterSagAlanSocialMediasIconAlani img {
+        width: 74px;
+        min-width: 74px;
+        max-width: 74px;
+        height: 74px;
+        min-height: 74px;
+        max-height: 74px;
+    }
+}
+
+#FooterSagAlanSocialMediasIconAlani img:hover {
+    display: inline-block;
+    float: right;
+    width: 74px;
+    min-width: 74px;
+    max-width: 74px;
+    height: 74px;
+    min-height: 74px;
+    max-height: 74px;
+    margin: 0px auto;
+    margin-left: 25px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
