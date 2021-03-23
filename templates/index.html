@@ -47,6 +47,33 @@
                 </div>
             </div>
         </div>
+
+        <div id="NavBarAcilirKutuGenelAlani">
+            <div id="NavBarAcilirKutuSinirlandirmaAlani">
+                <div id="NavBarListelerAlani">
+                    <ul class="NavBarAcilirKutuListeleri">
+                        {% if request.user.is_authenticated %}
+                        <li class="NavBarListesi"><a href="">Home</a></li>
+                        <li class="NavBarListesi"><a href="/movie/addmovie">Add Movie</a></li>
+                        <li class="NavBarListesi"><a href="/user/logout">Logout</a></li>
+
+                        {% else %}
+                        <li class="NavBarListesi"><a href="">Home</a></li>
+                        <li class="NavBarListesi"><a href="/user/register">Register</a></li>
+                        <li class="NavBarListesi"><a href="/user/login">Login</a></li>
+
+                        {% endif %}
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
         <div id="ArkaPlanResmiSinirlamaAlani">
         </div>
         {% block index %}
@@ -57,7 +84,9 @@
                 <div class="FilmlerAlani">
 
                     <div class="FilmResimAlani">
-                        <img width="250px" height="200px" src="{{movie.m_image.url}}" alt="">
+                        <a href="/movie/moviedetails/{{movie.m_name}}">
+                            <img width="250px" height="200px" src="{{movie.m_image.url}}" alt="">
+                        </a>
                     </div>
                     <div class="FilmİsimAlani">
                         {{movie.m_name}}

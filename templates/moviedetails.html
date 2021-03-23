@@ -1,0 +1,33 @@
+{% extends "index.html" %} {% block index %}
+
+
+<div id="FilmlerDetayGenelAlani">
+    <div id="FilmlerDetaySinirlandirmaAlani">
+        <div class="FilmlerDetayResimAlani">
+            <img src="{{movies.m_image.url}}" alt="">
+        </div>
+        <div class="FilmlerDetayAlani">
+            <b>Movie Name</b> - <span>{{movies.m_name}}</span>
+        </div>
+        <div class="FilmlerDetayAlani">
+            <b>Movie Year</b> - <span>{{movies.m_year}}</span>
+
+        </div>
+        <div class="FilmlerDetayAlani">
+            <b>Movie Actors</b> - <span>{{movies.m_actors}}</span>
+
+        </div>
+        <div class="FilmlerDetayAlani">
+            <b>Movie Rank</b> - <span>{{movies.m_rank}} %</span>
+
+        </div>
+        <div class="FilmlerDetayAlani" style="text-align: justify;">
+            <b>Movie Content</b><br> {{movies.m_content}}
+
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}

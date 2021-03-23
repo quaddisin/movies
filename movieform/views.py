@@ -41,3 +41,7 @@ def drama(request):
         return render(request,"moviekind/drama.html",{"movies":movies})
     else:
         return render(request,"moviekind/drama.html")
+
+def moviedetails(request,m_name):
+    movies = AddMovieModel.objects.filter(m_name=m_name).first
+    return render(request,"moviedetails.html",{"movies":movies})
